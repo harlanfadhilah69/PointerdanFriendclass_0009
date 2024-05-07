@@ -2,11 +2,11 @@
 using namespace std;
 
 class mahasiswa {
-        public:
-        int nim;
-        void showNim() {
-            cout << "No Induk = " << nim << endl;
-        }
+    public:
+    int nim;
+    void showNim() {
+    cout << "No Induk = " << nim << endl;
+    }
 };
 
 int main() {
@@ -22,7 +22,4 @@ int main() {
     pMhs->nim = 3;
     pMhs->showNim();
     return 0;
-    
-
-
 }
